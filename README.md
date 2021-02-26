@@ -1,5 +1,5 @@
 # Project name: airflow-2-docker-window
-## Example: Run Airflow 2.0 with Celery via docker-compose (Windows 10)
+### Example: Run Airflow 2.0 with Celery via docker-compose (Windows 10)
 
 This example shows you how to run Airflow 2.0 (using official docker image) with its dependencies using docker-compose.
 
