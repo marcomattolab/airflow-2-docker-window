@@ -12,6 +12,8 @@ x-apache-airflow-base: &apache-airflow-base
   volumes:
     - ./dags:/opt/airflow/dags
     - ./urbanite_logs:/opt/airflow/logs
+    - ./static:/home/airflow/.local/lib/python3.8/site-packages/airflow/www/static
+    - ./navbar.html:/home/airflow/.local/lib/python3.8/site-packages/airflow/www/templates/appbuilder/navbar.html
   depends_on:
     - postgres
     - redis
